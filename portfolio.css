@@ -19,8 +19,11 @@
   font-size: 320%;
   font-weight: bold;
 }
-#projects-heading {
+#projects-heading, #contact-heading {
   padding-bottom: 2%;
+}
+#contact-heading {
+  margin-top: 5%;
 }
 .jumbotron p {
   font-size: 220%;
@@ -31,9 +34,27 @@
   color: #5542b3;
   font-weight: bold;
 }
+input {
+  font-size: 200%;
+}
+.form-control {
+  margin-top: 2%;
+  font-size: 200%;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+}
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
   .jumbotron p {
     font-size: 170%;
   }
 }
+
+input[type=email], input[type=text] {
+  width: 100%;
+}
+
+
