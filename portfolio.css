@@ -1,0 +1,39 @@
+* {
+  font-family: 'Special Elite', cursive; 
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: black;
+  }
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.jumbotron {
+  height: 100vh;
+}
+.jumbotron h1 {
+  margin-bottom: 10%;
+  padding-top: 9%;
+  font-size: 320%;
+  font-weight: bold;
+}
+#projects-heading {
+  padding-bottom: 2%;
+}
+.jumbotron p {
+  font-size: 220%;
+}
+.caption p {
+  font-size: 120%;
+  text-align: center;
+  color: #5542b3;
+  font-weight: bold;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .jumbotron p {
+    font-size: 170%;
+  }
+}
