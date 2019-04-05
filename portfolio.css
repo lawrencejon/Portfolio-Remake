@@ -51,6 +51,18 @@ input {
   margin-top: 3%;
   font-size: 175%;
 }
+#social-links {
+  padding-top: 5%;
+  list-style: none;
+  text-align: center; 
+}
+
+#social-links li {
+  margin-left: 5%;
+}
+#social-links li:hover {
+  transform: scale(1.1);
+}
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
   .jumbotron p {
