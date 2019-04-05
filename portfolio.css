@@ -58,10 +58,15 @@ input {
 }
 
 #social-links li {
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 #social-links li:hover {
   transform: scale(1.1);
+}
+footer {
+  text-align: center;
+  padding: 2%;
 }
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
