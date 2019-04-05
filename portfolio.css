@@ -46,6 +46,11 @@ input {
   padding: 10px;
   font-size: 1.5em;
 }
+.resume-download {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 175%;
+}
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
   .jumbotron p {
